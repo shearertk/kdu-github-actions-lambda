@@ -1,0 +1,23 @@
+{
+  "name": "kdu-github-actions-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shearertk/kdu-github-actions-lambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shearertk/kdu-github-actions-lambda/issues"
+  },
+  "homepage": "https://github.com/shearertk/kdu-github-actions-lambda#readme",
+  "devDependencies": {
+    "aws-lambda-mock-context": "^3.2.1",
+    "jest": "^29.5.0"
+  }
+}
