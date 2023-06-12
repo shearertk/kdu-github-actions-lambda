@@ -1,7 +1,7 @@
 console.log('Loading function');
 
 exports.handler = async (event, context) => {
-    // v0608-3
+    // v0612-2
     console.log('Received event:', JSON.stringify(event, null, 2));
     console.log('value1 =', event.key1);
     console.log('value2 =', event.key2);
